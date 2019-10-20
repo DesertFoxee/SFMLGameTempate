@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\src">
+      <UniqueIdentifier>{1e2c3706-7df5-45c8-bf81-fd8daea72450}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\include">
+      <UniqueIdentifier>{12ca88a3-8178-4858-ab49-4713eae9531b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\include\ResourceManager">
+      <UniqueIdentifier>{9df3ee02-2ee7-40c5-9ecc-b44b146ad435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\ResourceManager">
+      <UniqueIdentifier>{ef7d54c6-3179-44b1-91d7-8c98df85541b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\include\Entity">
+      <UniqueIdentifier>{f97f294f-ff14-4fab-b01a-9e4c2959cb34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\include\Entity\Basic">
+      <UniqueIdentifier>{274e41af-96cf-442f-a8c1-6ca72e9b74df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\include\Extension">
+      <UniqueIdentifier>{111c5014-7265-4ce8-aef2-2b4528519c94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\include\Config">
+      <UniqueIdentifier>{04c2904c-7da1-4ca9-b761-1ce6502b63a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\FileSystem">
+      <UniqueIdentifier>{b0351601-6090-4794-af4e-a1e6a7bbf215}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\Extension">
+      <UniqueIdentifier>{9f1bde55-56e8-4a56-bfea-8dd199edf7b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\Entitys">
+      <UniqueIdentifier>{ea77fdd8-b3e4-4de9-ac42-315d5f180fcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\src\Entitys\Basic">
+      <UniqueIdentifier>{9f21b8d5-3d83-4b12-97a5-839a7e13ec5d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardManager.cpp">
+      <Filter>Source Files\src\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseManager.cpp">
+      <Filter>Source Files\src\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Source Files\src\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Source Files\src\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="FontManager.cpp">
+      <Filter>Source Files\src\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper.h">
+      <Filter>Header Files\include\Extension</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Source Files\src\Entitys\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="ParaObject.cpp">
+      <Filter>Source Files\src\Entitys\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2D.cpp">
+      <Filter>Source Files\src\Entitys\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Source Files\src\Extension</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="openal32.dll">
+      <Filter>Resource Files\FileSystem</Filter>
+    </None>
+    <None Include="sfml-audio-2.dll">
+      <Filter>Resource Files\FileSystem</Filter>
+    </None>
+    <None Include="sfml-audio-d-2.dll">
+      <Filter>Resource Files\FileSystem</Filter>
+    </None>
+    <None Include="sfml-graphics-2.dll">
+      <Filter>Resource Files\FileSystem</Filter>
+    </None>
+    <None Include="sfml-graphics-d-2.dll">
+      <Filter>Resource Files\FileSystem</Filter>
+    </None>
+    <None Include="sfml-network-2.dll">
+      <Filter>Resource Files\FileSystem</Filter>
+    </None>
+    <None Include="sfml-network-d-2.dll">
+      <Filter>Resource Files\FileSystem</Filter>
+    </None>
+    <None Include="sfml-system-2.dll">
+      <Filter>Resource Files\FileSystem</Filter>
+    </None>
+    <None Include="sfml-system-d-2.dll">
+      <Filter>Resource Files\FileSystem</Filter>
+    </None>
+    <None Include="sfml-window-2.dll">
+      <Filter>Resource Files\FileSystem</Filter>
+    </None>
+    <None Include="sfml-window-d-2.dll">
+      <Filter>Resource Files\FileSystem</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Header Files\include\Entity\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Action.h">
+      <Filter>Header Files\include\Entity\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Convert.h">
+      <Filter>Header Files\include\Extension</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Header Files\include\Extension</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>Header Files\include\Entity\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="ParaObject.h">
+      <Filter>Header Files\include\Entity\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Header Files\include\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Header Files\include\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Header Files\include\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="FontManager.h">
+      <Filter>Header Files\include\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardManager.h">
+      <Filter>Header Files\include\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseManager.h">
+      <Filter>Header Files\include\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Header Files\include\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Header Files\include\ResourceManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

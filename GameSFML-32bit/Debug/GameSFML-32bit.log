@@ -1,0 +1,14 @@
+﻿  FontManager.cpp
+  Game.cpp
+  Helper.h
+  KeyboardManager.cpp
+  main.cpp
+  MouseManager.cpp
+  Object.cpp
+  ParaObject.cpp
+  Random.cpp
+  SoundManager.cpp
+  TextureManager.cpp
+  Vector2D.cpp
+  Generating Code...
+  GameSFML-32bit.vcxproj -> F:\SFML\SFMLGameTempate\trunk\Debug\GameSFML-32bit.exe
